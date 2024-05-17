@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanosh Hotel</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        .nav{
+            display:flex;
+            flex-direction:row;
+            background-color: rgb(31, 114, 191);
+            width: 100%;
+            
+        }
+        .section1{
+            border: black dotted 1px;
+            padding: 1px 5px 5px 1px;
+            border-radius: 10% 10%;
+            width: 40%;
+            height: 150px;
+            align-content:end;
+        }
+        li{
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <nav class="nav">
+            <div class="nav-item" style="flex-direction: row; width: 30%;">
+                <p style="font-size:x-large; color:wheat; align-items: center;">Hana Hotel</p>
+                <img src="logoh.jpg" alt="logo"> 
+            </div>
+            <ul style="display: flex; list-style-type: none;width: 70%;">
+                <li>
+                    <a href="#top" style="color: white; font-size: larger;">
+                        Home
+                    </a>
+
+                </li>
+                <li>
+                    <a href="#section1" style="color: white; font-size: larger;">
+                        Portfolio
+                    </a>
+
+                </li>
+                <li>
+                    <a href="#section2" style="color: white; font-size: larger;">
+                        Contact us
+                    </a>
+
+                </li>
+            </ul>
+        </nav><br>
+        <section>
+            <div class="section1" id="section1" style="background-color: rgb(127, 225, 255); position:absolute; z-index: 999;">
+                <form action="" style="align-content: center;" >
+                    <label for="name" title="name">Enter Fuuname</label>
+                    <input type="text"> <br>
+                    <label for="phone" title="123456789">Enter Phone Number</label>
+                    <input type="number" name="" id=""><br>
+                    <label for="gender">Gender</label>
+                    <select name="" id="">
+                        <option value="room">none</option>
+                        <option value="1">female</option>
+                        <option value="2">male</option>
+                    </select><br>
+                    <label for="no">Choose Room</label>
+                    <select name="" id="">
+                        <option value="room">none</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select><br>
+                    <label for="no">Room Type</label>
+                    <select name="" id="">
+                        <option value="room">none </option>
+                        <option value="1">single</option>
+                        <option value="2">double</option>
+                        <option value="3">sweet</option>
+                    </select><br>
+                    <label for="no">none </label>
+                    <select name="" id="">
+                        <option value="room">none </option>
+                        <option value="1">Visa</option>
+                        <option value="2">cash</option>
+                    </select>
+                </form>
+            </div>
+
+        </section>
+        
+        
+        <div></div>
+    </div>
+ 
+</body>
+</html>
+
+
+<!-- <div class="nav-item" style="display:inline; flex-direction: row;"></div>
+<nav>
+    <img src="logoh.jpg" alt="ياسمين الشام" srcset="">
+    Hana Hotel
+</nav>
+
+<div class="navbar">
+    <a href="#top" target="_blank" rel="noopener noreferrer">Home</a>
+    <a href="#section1">Portfolio</a>
+    <a href="#section2">Contact us</a>
+</div> -->
